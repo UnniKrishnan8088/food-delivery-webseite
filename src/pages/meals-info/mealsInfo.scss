@@ -1,0 +1,171 @@
+.meals__info__details {
+  display: grid;
+  place-items: center;
+  height: 60vh;
+  padding: 0 10%;
+  @media (max-width: 767.98px) {
+    height: fit-content;
+    padding: 0;
+    text-align: justify;
+  }
+  .inner-wrapper {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    // gap: 18px;
+    gap: 1.25vw;
+    @media (max-width: 991.98px) {
+      gap: 1.81vw;
+      grid-template-columns: 25.2vw 1fr;
+    }
+    @media (max-width: 767.98px) {
+      gap: 3.34vw;
+      grid-template-columns: 32.55vw 1fr;
+    }
+    @media (max-width: 360.98px) {
+      grid-template-columns: 1fr;
+      gap: 4.98vw;
+    }
+    .img__wrapper {
+      width: 17.36vw;
+      height: 15.97vw;
+      // width: 250px;
+      // height: 230px;
+      @media (max-width: 991.98px) {
+        width: 25.2vw;
+        height: 23.18vw;
+      }
+      @media (max-width: 767.98px) {
+        width: 32.55vw;
+        height: 29.94vw;
+      }
+      @media (max-width: 360.98px) {
+        width: 69.25vw;
+        height: 63.71vw;
+      }
+      img {
+        width: 100%;
+        height: 100%;
+        border-radius: 0.69vw;
+        @media (max-width: 991.98px) {
+          border-radius: 1vw;
+        }
+        @media (max-width: 767.98px) {
+          border-radius: 1.3vw;
+        }
+        @media (max-width: 360.98px) {
+          border-radius: 2.77vw;
+        }
+      }
+    }
+    .info__details {
+      display: flex;
+      flex-direction: column;
+      gap: 1.25vw;
+      @media (max-width: 991.98px) {
+        gap: 1.81vw;
+      }
+      @media (max-width: 767.98px) {
+        gap: 2.34vw;
+      }
+      @media (max-width: 360.98px) {
+        gap: 4.98vw;
+      }
+      .info__heading {
+        display: flex;
+        align-items: center;
+        // gap: 20px;
+        gap: 1.38vw;
+        @media (max-width: 991.98px) {
+          gap: 2.01vw;
+        }
+        @media (max-width: 767.98px) {
+          gap: 2.6vw;
+        }
+        @media (max-width: 360.98px) {
+          gap: 5.54vw;
+        }
+        h3 {
+          // font-size: 20px;
+          font-size: 1.38vw;
+          @media (max-width: 991.98px) {
+            font-size: 2.01vw;
+          }
+          @media (max-width: 767.98px) {
+            font-size: 2.6vw;
+          }
+          @media (max-width: 360.98px) {
+            font-size: 5.54vw;
+          }
+        }
+        span {
+          // padding: 6px 20px;
+          padding: 0.41vw 1.38vw;
+          // font-size: 14px;
+          font-size: 0.97vw;
+          background: #f5ddc4;
+          color: #f48e28;
+          font-weight: 700;
+          // border-radius: 6px;
+          border-radius: 0.41vw;
+          @media (max-width: 991.98px) {
+            padding: 0.6vw 2.01vw;
+            font-size: 1.41vw;
+            border-radius: 0.6vw;
+          }
+          @media (max-width: 767.98px) {
+            padding: 0.78vw 2.6vw;
+            font-size: 1.82vw;
+            border-radius: 0.78vw;
+          }
+          @media (max-width: 360.98px) {
+            padding: 1.66vw 5.54vw;
+            font-size: 3.87vw;
+            border-radius: 1.66vw;
+          }
+        }
+      }
+      p {
+        // font-size: 16px;
+        font-size: 1.11vw;
+        font-weight: 500;
+        // line-height: 22px;
+        line-height: 1.52vw;
+        @media (max-width: 991.98px) {
+          font-size: 1.61vw;
+          line-height: 2.21vw;
+        }
+        @media (max-width: 767.98px) {
+          font-size: 2.08vw;
+          line-height: 2.86vw;
+        }
+        @media (max-width: 360.98px) {
+          font-size: 4.43vw;
+          line-height: 6.09vw;
+        }
+      }
+      .add__to__cart {
+        button {
+          // padding: 10px 24px;
+          // border-radius: 30px;
+          padding: 0.69vw 1.66vw;
+          border-radius: 2.08vw;
+          background: #f48e28;
+          color: white;
+          font-weight: 700;
+          @media (max-width: 991.98px) {
+            padding: 1vw 2.41vw;
+            border-radius: 3.02vw;
+          }
+          @media (max-width: 767.98px) {
+            padding: 1.3vw 3.12vw;
+            border-radius: 3.9vw;
+          }
+          @media (max-width: 360.98px) {
+            padding: 2.77vw 6.64vw;
+            border-radius: 8.31vw;
+          }
+        }
+      }
+    }
+  }
+}

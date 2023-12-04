@@ -1,0 +1,105 @@
+.banner__card {
+  position: relative;
+  padding-top: 70px;
+  @media (max-width: 991.98px) {
+    padding-top: 7.05vw;
+  }
+  @media (max-width: 767.98px) {
+    padding-top: 9.11vw;
+  }
+  @media (max-width: 575.98px) {
+    padding-top: 12.15vw;
+  }
+  img {
+    width: 200px;
+    height: 190px;
+    position: absolute;
+    top: 5px;
+    left: -15px;
+    @media (max-width: 991.98px) {
+      width: 20.16vw;
+      height: 19.15vw;
+      top: 0.5vw;
+      left: -1.51vw;
+    }
+    // @media (max-width: 767.98px) {
+    //   margin-top: 26.04vw;
+    //   height: 24.74vw;
+    //   top: 0.65vw;
+    //   left: -1.95vw;
+    // }
+    @media (max-width: 575.98px) {
+      width: 34.72vw;
+      height: 32.98vw;
+      top: 0.86vw;
+      left: -2.6vw;
+    }
+  }
+  .card {
+    width: 180px;
+    height: 200px;
+    border-radius: 30px;
+    background: #fff;
+    box-shadow: 0px 0px 31px 0px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    @media (max-width: 991.98px) {
+      width: 18.14vw;
+      height: 20.16vw;
+      border-radius: 3.02vw;
+    }
+    @media (max-width: 767.98px) {
+      width: 23.43vw;
+      height: 26.04vw;
+      border-radius: 3.9vw;
+    }
+    @media (max-width: 575.98px) {
+      width: 31.25vw;
+      height: 34.72vw;
+      border-radius: 5.2vw;
+    }
+    h3 {
+      margin-top: 48px;
+      font-size: 18px;
+      @media (max-width: 991.98px) {
+        margin-top: 4.83vw;
+        font-size: 1.81vw;
+      }
+      @media (max-width: 575.98px) {
+        margin-top: 8.33vw;
+        font-size: 3.12vw;
+      }
+    }
+    .desc {
+      font-size: 14px;
+      margin-top: 10px;
+      @media (max-width: 991.98px) {
+        font-size: 1.41vw;
+        margin-top: 1vw;
+      }
+      @media (max-width: 360.98px) {
+        font-size: 2.87vw;
+        margin-top: 2.77vw;
+      }
+    }
+    .price {
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+      font-weight: 700;
+      margin-top: 6px;
+      @media (max-width: 991.98px) {
+        font-size: 1.41vw;
+        margin-top: 0.6vw;
+      }
+      @media (max-width: 360.98px) {
+        font-size: 3.87vw;
+      }
+      span {
+        color: #ee140a;
+      }
+    }
+  }
+}

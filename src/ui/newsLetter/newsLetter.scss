@@ -1,0 +1,24 @@
+.news__letter__container {
+  background-color: #000;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  padding: 74px 106px;
+  color: white;
+  .bg__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 2px red solid;
+    width: 620px;
+    height: 570px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .inner__wrapper {
+    width: 250px;
+  }
+}

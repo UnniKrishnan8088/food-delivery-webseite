@@ -1,0 +1,25 @@
+.cart__container {
+  display: grid;
+  grid-template-columns: 670px 1fr;
+  gap: 16px;
+  @media (max-width: 991.98px) {
+    // grid-template-columns: ;
+    grid-template-columns: 1fr;
+    gap: 1.61vw;
+  }
+  .left {
+    padding: 10px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    height: 75vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    @media (max-width: 575.98px) {
+      grid-template-columns: 1fr;
+    }
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+}

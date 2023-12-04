@@ -1,0 +1,22 @@
+.meals__container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 18px;
+  row-gap: 24px;
+  @media (max-width: 991.98px) {
+    column-gap: 1.81vw;
+    row-gap: 2.41vw;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  @media (max-width: 767.98px) {
+  }
+  @media (max-width: 575.98px) {
+    grid-template-columns: 1fr 1fr;
+    gap: 3.12vw;
+    row-gap: 4.16vw;
+  }
+  @media (max-width: 360.98px) {
+    grid-template-columns: 1fr;
+    
+  }
+}

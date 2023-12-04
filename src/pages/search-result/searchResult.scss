@@ -1,0 +1,13 @@
+.results__container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 18px;
+  row-gap: 24px;
+}
+.message {
+  width: 600px;
+  margin-top: 20px;
+  padding: 10px;
+  background: #f5ddc4;
+  border-radius: 10px;
+}
