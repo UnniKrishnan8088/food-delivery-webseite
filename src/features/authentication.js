@@ -6,8 +6,6 @@ import toast from "react-hot-toast";
 import { auth, fireDB } from "../firebase/firebaseConfig";
 import { Timestamp, addDoc, collection } from "firebase/firestore";
 
-
-
 //user signup
 export const userSignUp = async (name, password, usereEmail) => {
   //check the values are empty
@@ -36,7 +34,7 @@ export const userSignUp = async (name, password, usereEmail) => {
     toast.success("Signup Successfull");
   } catch (err) {
     if (err.code === "auth/weak-password")
-      toast.error("Password should be at least 6 characters long");
+      toast.error("Password should be at least 6 characters long"); //making a toast message
     if (err.code === "auth/invalid-email") toast.error("Invalid Email");
   }
 };
