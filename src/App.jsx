@@ -14,9 +14,9 @@ import { Toaster } from "react-hot-toast";
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
-import "./App.scss";
 import MealsInfo from "./pages/meals-info/MealsInfo";
 import SearchResult from "./pages/search-result/SearchResult";
+import "./App.scss";
 
 const queryClient = new QueryClient({
   defaultOptions: {
