@@ -10,7 +10,7 @@ import { Timestamp, addDoc, collection } from "firebase/firestore";
 
 //user signup
 export const userSignUp = async (name, password, usereEmail) => {
-  //check the valuse are empty
+  //check the values are empty
   if (name === "" || password === "" || usereEmail === "")
     return toast.error("Fields are required");
 
