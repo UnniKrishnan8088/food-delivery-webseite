@@ -4,12 +4,12 @@ import { getAuth } from "firebase/auth";
 
 //firebase configuration
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_API_KEY,
-  authDomain: import.meta.env.VITE_AUTHDOMAIN,
-  projectId: import.meta.env.VITE_PROJECTID,
-  storageBucket: import.meta.env.VITE_STORAGE_BUCKET,
-  messagingSenderId: import.meta.env.VITE_MESSAGING_SENDER_ID,
-  appId: import.meta.env.VITE_APP_ID,
+  apiKey: "AIzaSyAKgxmwbPAr9-fTa-ZEBcEdarf8Aic6gFs",
+  authDomain: "food-app-f5c52.firebaseapp.com",
+  projectId: "food-app-f5c52",
+  storageBucket: "food-app-f5c52.appspot.com",
+  messagingSenderId: "359198827360",
+  appId: "1:359198827360:web:da13481d5d78de0183b405"
 };
 
 //initialize firebase
