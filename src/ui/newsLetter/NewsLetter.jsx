@@ -4,7 +4,7 @@ export default function NewsLetter() {
   return (
     <div className="news__letter__container">
       <div className="bg__img">
-        <img src="/src/assets/burger.png" alt="" />
+        <img src="/public/assets/burger.png" alt="" />
       </div>
       <div className="inner__wrapper">
         <h3>Subcribe To Our Newsletter</h3>

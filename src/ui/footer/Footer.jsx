@@ -11,7 +11,7 @@ export default function Footer() {
     <footer>
       <div className="contents">
         <div className="footer__logo">
-          <img src="/src/assets/footer-logo.png" alt="" />
+          <img src="/public/assets/footer-logo.png" alt="" />
         </div>
         <div className="footer__details">
           <p>

@@ -2,8 +2,8 @@ import { useQuery, useQueryClient } from "@tanstack/react-query";
 import { fetchData } from "../../firebase/firebaseServices";
 
 import MealsCard from "../../ui/mealsCard/MealsCard";
-import "./all-meals.scss";
 import Spinner from "../../ui/spinner/Spinner";
+import "./all-meals.scss";
 
 export default function AllMeals() {
   const queryClient = useQueryClient();

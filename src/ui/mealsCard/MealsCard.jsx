@@ -1,13 +1,12 @@
 import { FaStar } from "react-icons/fa";
 import { PiCurrencyInrBold } from "react-icons/pi";
-
 import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { addToCart } from "../../redux/cartSlice";
+import { truncate } from "../../utils/helpers";
 
 import toast from "react-hot-toast";
 import "./MealsCard.scss";
-import { truncate } from "../../utils/helpers";
 
 export default function MealsCard({ meal }) {
   const user = JSON.parse(localStorage.getItem("user"));

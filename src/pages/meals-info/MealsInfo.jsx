@@ -4,6 +4,7 @@ import { doc, getDoc } from "firebase/firestore";
 import { fireDB } from "../../firebase/firebaseConfig";
 import { useDispatch } from "react-redux";
 import { addToCart } from "../../redux/cartSlice";
+
 import Spinner from "../../ui/spinner/Spinner";
 import Footer from "../../ui/footer/Footer";
 

@@ -1,15 +1,18 @@
 import { MdProductionQuantityLimits, MdDeleteOutline } from "react-icons/md";
 import { FaEdit } from "react-icons/fa";
-import "./tabs.scss";
 import { useState } from "react";
-import AddProductForm from "../crudPopup/AddProductForm";
-import EditProductForm from "../crudPopup/EditProductForm";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { deleteProduct, fetchData } from "../../firebase/firebaseServices";
+
+import AddProductForm from "../crudPopup/AddProductForm";
+import EditProductForm from "../crudPopup/EditProductForm";
+
 import toast from "react-hot-toast";
 
+import "./tabs.scss";
+
 export default function ProductsTab() {
-  const queryClient = useQueryClient()
+  const queryClient = useQueryClient();
 
   const [addProduct, setAddProduct] = useState(false);
   const [editProduct, setEditProduct] = useState(false);
@@ -24,8 +27,8 @@ export default function ProductsTab() {
 
     onSuccess: () => {
       queryClient.invalidateQueries({
-        queryKey: ["products"]
-      })
+        queryKey: ["products"],
+      });
       toast.success("Item Deleted");
     },
     onError: () => {
@@ -67,7 +70,10 @@ export default function ProductsTab() {
               <td>{}</td>
               <td>
                 <div className="btns">
-                  <button onClick={() => setEditProduct(true)} disabled={isDeleting}>
+                  <button
+                    onClick={() => setEditProduct(true)}
+                    disabled={isDeleting}
+                  >
                     <FaEdit />
                   </button>
                   <button onClick={() => deleteItem(product.id)}>
