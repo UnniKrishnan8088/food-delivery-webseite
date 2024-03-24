@@ -5,7 +5,7 @@ export default function BannerCard({ data }) {
   const { image, category, description, price } = data;
   return (
     <div className="banner__card">
-      <img src={`/public/${image}`} alt="" />
+      <img src={`/${image}`} alt="" />
       <div className="card">
         <h3>{category}</h3>
         <p className="desc">{description}</p>

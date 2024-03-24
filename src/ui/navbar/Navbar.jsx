@@ -30,7 +30,7 @@ export default function Navbar() {
     <nav>
       <div className="logo">
         <Link to="home">
-          <img src="/public/Logo.png" alt="" />
+          <img src="/Logo.png" alt="" />
         </Link>
       </div>
       <ul>

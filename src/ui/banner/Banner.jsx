@@ -35,7 +35,7 @@ export default function Banner() {
       <div className="left">
         <div className="bike__delivery">
           <p>Bike Delivery</p>
-          <img src="/public/bike-delivery.png" alt="" />
+          <img src="/bike-delivery.png" alt="" />
         </div>
         <div className="heading">
           <h1>The Fastest</h1>
