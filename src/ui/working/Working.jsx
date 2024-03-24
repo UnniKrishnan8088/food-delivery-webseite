@@ -7,7 +7,7 @@ export default function Working() {
       <h3 className="main-h">Food Us An Important Part Of A Balanced Diet</h3>
       <div className="working">
         <div className="working__process">
-          <img src="/assets/computer.png" alt="" />
+          <img src="/public/computer.png" alt="" />
           <h4>
             <span>CHOOSE</span>
             <div className="circle"></div>
@@ -18,7 +18,7 @@ export default function Working() {
           </p>
         </div>
         <div className="working__process">
-          <img src="/assets/Fried-Chicken.png" alt="" className="for__mob" />
+          <img src="/public/Fried-Chicken.png" alt="" className="for__mob" />
           <h4>
             <div className="circle"></div>
             <span>PREPARE FOOD</span>
@@ -28,10 +28,10 @@ export default function Working() {
             Do you want to lose weight, exercise, adhere to a therapeutic diet?
             Our dietitian will help you with choosing the right program!
           </p>
-          <img src="/assets/Fried-Chicken.png" alt="" className="for__web" />
+          <img src="/public/Fried-Chicken.png" alt="" className="for__web" />
         </div>
         <div className="working__process">
-          <img src="/assets/packes.png" alt="" />
+          <img src="/public/packes.png" alt="" />
           <h4>
             <div className="circle"></div>
             <span>DELIVER</span>
